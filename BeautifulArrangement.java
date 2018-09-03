@@ -1,8 +1,8 @@
 import java.util.*;
 import java.lang.*;
-// beutiful arrangement problem of leetcode
+// beautiful arrangement problem of leetcode
 
-class permute{
+class BeautifulArrangement{
 
 static int count=0;
 
