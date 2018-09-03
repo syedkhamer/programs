@@ -3,7 +3,7 @@ import java.lang.*;
 
 // program to find frequency of elements in a array
 
-class Frequency{
+class FrequencyElementsInArray{
 
 
 public static void main(String[] args){
