@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-
+// program to print string in lexilogical order
 class stringpermute{
 
 static int count=0;
