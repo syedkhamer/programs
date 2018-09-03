@@ -7,20 +7,13 @@ class heapsort {
 	public static void main(String args[]) {
 		sc = new Scanner(System.in);
 
-		//System.out.println("Enter no of terms");
-		//int n = sc.nextInt();
 
 		System.out.println("Enter the terms");
 		int arr[] = new int[]{13,15,6,8,9,10,3,3};
-		//for (int i = 0; i < n; i++)
-		//	arr[i] = sc.nextInt();
-
-		//System.out.println("The unsorted array is:");
-		//System.out.println(Arrays.toString(arr));
+		
 
 		heap(arr);
 
-		//System.out.println("The sorted array is:");
 		System.out.println(Arrays.toString(arr));
 	}
 
