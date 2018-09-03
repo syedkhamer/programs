@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 
 
-class quicksort{
+class QuickSort{
 
 
 public static void sort(int []arr,int low,int high)
