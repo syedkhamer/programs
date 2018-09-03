@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-
+// beutiful arrangement proble of leetcode
 
 class permute{
 
@@ -17,11 +17,7 @@ for(int i=l;i<r;i++){
 System.out.println(l);
 swap(str,l,i);
 
-//if(str[l]%(l+1)==0  || (l+1)%str[l]==0){
-//int k=str[i]%j;
-//int m=j%str[i];
-//int n=l+1;
-//System.out.println(k+" "+m+" "+n);
+
 permutation(str,l+1,r);
 
 swap(str,l,i);
