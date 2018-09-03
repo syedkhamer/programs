@@ -17,7 +17,7 @@ for(int i=l;i<r;i++){
 System.out.println(l);
 swap(str,l,i);
 
-
+if(str[l]%(l+1)==0 || (l+1)%str[l])
 permutation(str,l+1,r);
 
 swap(str,l,i);
