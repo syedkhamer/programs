@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-// beutiful arrangement proble of leetcode
+// beutiful arrangement problem of leetcode
 
 class permute{
 
