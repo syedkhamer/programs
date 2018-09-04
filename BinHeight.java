@@ -1,6 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
+// program to find height of binary search tree
 
 
 class Node{
@@ -21,7 +22,7 @@ left=null;
 
 
 
-class BinHieght
+class BinHeight
 {
 public static int height(Node root)
 {
@@ -38,22 +39,23 @@ return Math.max(lefth,righth)+1;
 
 }
 
-public static Node insert(Node head,int data){
 
-
+ 
+ public static Node insert(Node head,int data)
+ {
+  //if root is equal to null then add the node
 if(head==null)
 {
-
 return new Node(data);
 }
-
+  //if data is less than root the traverse on left tree
 
 if(data <=head.data)
 {
 head.left=insert(head.left,data);
 
 }
-
+//if data is greater than root the traverse on right tree
 else
 head.right=insert(head.right,data);
 
